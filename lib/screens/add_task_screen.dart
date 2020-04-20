@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class AddTaskScreen extends StatelessWidget {
   @override
@@ -31,7 +30,10 @@ class AddTaskScreen extends StatelessWidget {
               height: 20.0,
             ),
             FlatButton(
-              child: Text('Add', style: TextStyle(color: Colors.white),),
+              child: Text(
+                'Add',
+                style: TextStyle(color: Colors.white),
+              ),
               color: Colors.lightBlueAccent,
               onPressed: () {
                 //add some functionality here
